@@ -735,3 +735,6 @@ public final class ShardingPreparedStatement extends AbstractShardingPreparedSta
 
 PreparedStatementExecutor实例在调用自身方法executeQuery()完成查询后将结果返回，通过mergeQuery实现结果聚合
 最终生成对应的查询结果集ShardingResultSet的实例返回，ShardingResultSet实现了ResultSet接口
+
+
+#### 参考博客：https://www.jianshu.com/p/fdbaa2b6ba8d

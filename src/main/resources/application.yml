@@ -1,0 +1,38 @@
+
+datasource:
+  account_1:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jdbc-url: jdbc:mysql://localhost:3306/account_1?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+    auto-commit: true
+    connection-test-query: SELECT 1
+    connection-timeout: 30000
+    idle-timeout: 180000
+    max-lifetime: 1800000
+    maximum-pool-size: 100
+    minimum-idle: 10
+  account_2:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jdbc-url: jdbc:mysql://localhost:3306/account_2?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+    auto-commit: true
+    connection-test-query: SELECT 1
+    connection-timeout: 30000
+    idle-timeout: 180000
+    max-lifetime: 1800000
+    maximum-pool-size: 100
+    minimum-idle: 10
+  account_3:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jdbc-url: jdbc:mysql://localhost:3306/account_3?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+    auto-commit: true
+    connection-test-query: SELECT 1
+    connection-timeout: 30000
+    idle-timeout: 180000
+    max-lifetime: 1800000
+    maximum-pool-size: 100
+    minimum-idle: 10
